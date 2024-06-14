@@ -15,7 +15,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Column="1" Margin="10" TextAlignment="Center" FontFamily="Anonymous Pro for PowerLine" FontSize="50">
+        <TextBlock Grid.Column="1" Margin="10" TextAlignment="Center" FontFamily="CaskaydiaCove Nerd Font Mono" FontSize="50">
         <TextBlock.Effect>
             <DropShadowEffect Direction="-45" Color="#FFB6C2CB" ShadowDepth="10" BlurRadius="14" />
         </TextBlock.Effect>
@@ -27,16 +27,16 @@
             </Image.Effect>
         </Image>
         <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="20,20,20,20">
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine">@{</TextBlock> 
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine" xml:space="preserve">    First   = 'Bartosz'</TextBlock>
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine" xml:space="preserve">    Last    = 'Bielawski'</TextBlock>
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine" xml:space="preserve">    Twitter = '@bielawb'</TextBlock>
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine" xml:space="preserve">    Email   = 'bartek.bielawski@live.com'</TextBlock>
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine" xml:space="preserve">    Work    = 'Optiver'</TextBlock>
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine" xml:space="preserve">    Git     = 'github.com/bielawb'</TextBlock>
-            <TextBlock FontSize="35" FontFamily="Anonymous Pro for PowerLine">}</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">@{</TextBlock> 
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    First   = 'Bartosz'</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    Last    = 'Bielawski'</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    Twitter = '@bielawb'</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    Email   = 'bartek.bielawski@live.com'</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    Work    = 'Optiver'</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    Git     = 'github.com/bielawb'</TextBlock>
+            <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">}</TextBlock>
         </StackPanel>
-        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" FontFamily="Anonymous Pro for PowerLine Italic" Margin="30,30,30,30">
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" FontFamily="CaskaydiaCove Nerd Font Mono" Margin="30,30,30,30">
         When Printf Debugging is Not Enough
         </TextBlock>
     </Grid>
