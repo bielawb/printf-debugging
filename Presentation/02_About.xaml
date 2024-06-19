@@ -26,6 +26,8 @@
                 <DropShadowEffect Direction="-45" Color="#FFB6C2CB" ShadowDepth="10" BlurRadius="14" />
             </Image.Effect>
         </Image>
+        <Image Grid.Column="1" Source="Media/PSConfEU-Logo.png" HorizontalAlignment="Right" Height="100"/>
+
         <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="20,20,20,20">
             <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">@{</TextBlock> 
             <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    First   = 'Bartosz'</TextBlock>
@@ -36,8 +38,9 @@
             <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono" xml:space="preserve">    Git     = 'github.com/bielawb'</TextBlock>
             <TextBlock FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">}</TextBlock>
         </StackPanel>
-        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" FontFamily="CaskaydiaCove Nerd Font Mono" Margin="30,30,30,30">
-        When Printf Debugging is Not Enough
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="30" TextAlignment="Left" FontFamily="CaskaydiaCove Nerd Font Mono" Margin="30,30,30,30">
+        When Printf Debugging...
         </TextBlock>
+        <Image Grid.Column="1" Grid.Row="2" Source="Media/Antwerp24.png" HorizontalAlignment="Right" Height="100" />
     </Grid>
 </Window>

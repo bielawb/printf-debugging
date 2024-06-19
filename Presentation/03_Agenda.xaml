@@ -21,6 +21,7 @@
         </TextBlock.Effect>
         <TextBlock.Text>Plan for today...</TextBlock.Text>
         </TextBlock>
+        <Image Grid.Column="1" Source="Media/PSConfEU-Logo.png" HorizontalAlignment="Right" Height="100"/>
         <Image Grid.Column="0" Grid.RowSpan="3" Source="Media/Printf_Debugging.png">
              <Image.Effect>
                 <DropShadowEffect Direction="-45" Color="#FFB6C2CB" ShadowDepth="10" BlurRadius="14" />
@@ -53,8 +54,10 @@
             <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Q&amp;A</TextBlock>
           </StackPanel>
         </StackPanel>
-        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="20" TextAlignment="Center" FontFamily="CaskaydiaCove Nerd Font Mono Italic" Margin="30,30,30,30">
-        When Printf Debugging is Not Enough
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="30" TextAlignment="Left" FontFamily="CaskaydiaCove Nerd Font Mono Italic" Margin="30,30,30,30">
+        When Printf Debugging...
         </TextBlock>
+        <Image Grid.Column="1" Grid.Row="2" Source="Media/Antwerp24.png" HorizontalAlignment="Right" Height="100" />
+
     </Grid>
 </Window>
