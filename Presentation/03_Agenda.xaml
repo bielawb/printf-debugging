@@ -31,22 +31,22 @@
           <StackPanel Orientation="Horizontal">
             <Image Source="Media/Bug.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" Height="120" VerticalAlignment="Center" Margin="0,0,0,0" />
-            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Ninja in Action</TextBlock>
+            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Printf Debugging</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
             <Image Source="Media/Bug.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" Height="120" VerticalAlignment="Center" Margin="0,0,0,0" />
-            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Your Profile</TextBlock>
+            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Interactive Debugger</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
             <Image Source="Media/Bug.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" Height="120" VerticalAlignment="Center" Margin="0,0,0,0" />
-            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Useful Modules</TextBlock>
+            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Debugging Remotely</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
             <Image Source="Media/Bug.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
               Width="120" Height="120" VerticalAlignment="Center" Margin="0,0,0,0" />
-            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">Trick Shots</TextBlock>
+            <TextBlock VerticalAlignment="Center" FontSize="35" FontFamily="CaskaydiaCove Nerd Font Mono">DSC Debugging</TextBlock>
           </StackPanel>
           <StackPanel Orientation="Horizontal">
             <Image Source="Media/Bug.jpg" RenderOptions.BitmapScalingMode="Fant" Stretch="Fill"
