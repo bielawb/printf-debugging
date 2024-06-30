@@ -12,6 +12,14 @@ Enter-PSSession -Session $session
 Enable-DscDebug -BreakAll
 Get-DscLocalConfigurationManager | ForEach-Object -MemberName DebugMode
 
+# now that debug session is in progress - we can Enter-PSSession...
+Enter-PSSession -ComputerName DC01 -Credential <credentials>
+# That would work in real domain, but my machine is not a member, so...
+Enter-PSSession -Session $session
+
+Enter-PSHostProcess -Id 1100 -AppDomainName DscPsPluginWkr_AppDomain
+Debug-Runspace -Id 4
+
 # We can also use same method we've used before...
 
 # Find the right process...

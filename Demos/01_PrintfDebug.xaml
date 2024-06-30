@@ -20,7 +20,7 @@
             <TextBlock.Effect>
                 <DropShadowEffect Direction="-45" Color="#FFB6C2CB" ShadowDepth="10" BlurRadius="14" />
             </TextBlock.Effect>
-            What is Prinf debugging anyways...?
+            What is Printf debugging anyways...?
         </TextBlock>
         <Image Grid.Row="1" Grid.ColumnSpan="3" Source="../Presentation/Media/Printf_Debugging_flat.png" >
              <Image.Effect>
